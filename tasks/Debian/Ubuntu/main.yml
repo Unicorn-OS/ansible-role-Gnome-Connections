@@ -3,4 +3,5 @@
   ansible.builtin.apt:
     pkg:
     - gnome-connections
+    update_cache: yes
   become: true
