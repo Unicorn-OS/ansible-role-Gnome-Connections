@@ -1,0 +1,6 @@
+---
+- name: Install GNOME Connections
+  ansible.builtin.apt:
+    pkg:
+    - gnome-connections
+  become: true
